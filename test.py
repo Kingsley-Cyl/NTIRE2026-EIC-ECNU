@@ -10,6 +10,9 @@ from pprint import pprint
 from utils import utils_logger
 from utils import utils_image as util
 
+import os
+os.environ["HT_ENDPOINT"] = "https://hf-mirror.com"
+
 
 def select_model(args, device):
     # Model ID is assigned according to the order of the submissions.
