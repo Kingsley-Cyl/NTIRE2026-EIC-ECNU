@@ -212,5 +212,5 @@ __marimo__/
 # Team submission
 results/
 figs/
-model_zoo/team21_OMGROUTE/*
-!model_zoo/team21_OMGROUTE/team21_dat.txt
+model_zoo/team21_EIC_ECNU/*
+!model_zoo/team21_EIC_ECNU/team21_dat.txt

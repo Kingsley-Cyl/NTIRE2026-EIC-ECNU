@@ -22,9 +22,9 @@ def select_model(args, device):
     #     model_path = os.path.join('model_zoo', 'team00_dat.pth')
     #     model_func = DAT
     if model_id == 21:
-        from models.team21_OMGROUTE import omgsr_inference
+        from models.team21_EIC_ECNU import omgsr_inference
         name = f"{model_id:02}_OMGSR_s_512"
-        model_path = os.path.join('model_zoo', 'team21_OMGROUTE') 
+        model_path = os.path.join('model_zoo', 'team21_EIC_ECNU') 
         model_func = omgsr_inference
     else:
         raise NotImplementedError(f"Model {model_id} is not implemented.")

@@ -27,7 +27,7 @@ class OMGSR_S_Infer(torch.nn.Module):
         unet.load_adapter(
             os.path.join(lora_path_bicubic, "unet_lora_adapter"), adapter_name="lora_bicubic"
         )
-        # 只有保留独立的适配器，才能在推理时动态切换。
+
         vae = vae.to(device=device, dtype=weight_dtype)
         unet = unet.to(device=device, dtype=weight_dtype)
         print(f"Current One mid-timestep settings: {mid_timestep}")

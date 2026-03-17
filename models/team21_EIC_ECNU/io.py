@@ -95,8 +95,8 @@ def omgsr_inference(model_dir, input_path, output_path, device):
     weight_dtype = torch.float16
     align_method = 'adain'
 
-    # sd_path = os.path.join(model_dir, "sd-2-1-base")
-    sd_path = os.path.join(model_dir, 'stable-diffusion-2-1-base')
+    sd_path = 'Manojb/stable-diffusion-2-1-base'
+    # sd_path = os.path.join(model_dir, 'stable-diffusion-2-1-base')
     lora_path_unknown = os.path.join(model_dir, "lora_unknown")
     lora_path_bicubic = os.path.join(model_dir, "lora_bicubic")
     embeds_path = os.path.join(model_dir, "empty_embeds.pt")
