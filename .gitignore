@@ -211,7 +211,6 @@ __marimo__/
 
 # Team submission
 results/
-factsheet/
 figs/
 model_zoo/team21_OMGROUTE/*
 !model_zoo/team21_OMGROUTE/team21_dat.txt
